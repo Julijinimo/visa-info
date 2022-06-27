@@ -1,0 +1,17 @@
+.box {
+    background-color: blueviolet;
+    height: 200px;
+    margin: 20px;
+    width: 200px;
+    
+}
+
+.boxes-wrapper {
+    align-items:;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content:;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+}

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+}
+
+.test-span {
+    background-color: plum;
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 100vw;
+    padding: 2rem;
+    width: 100%;
+}

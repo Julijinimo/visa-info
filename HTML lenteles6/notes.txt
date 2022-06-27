@@ -1,0 +1,24 @@
+figma?
+
+free figma designs galima meginti is ju mokytis
+
+lentele = table
+
+tr - lenteles eilutes elementas (Table row)
+td - lenteles stulpelio elementas (Table data)
+th - lenteles virsuje pavadinimas (Tale header)
+
+colspan - kiek istempia columnu celiu
+rowspan - kiek istempia rowsus celiu
+
+colgroup - skirtas stulpeliu stilizavimui
+col keliauja i colgroup
+stilizuodami col taga stilizuojame visa stulpeli
+
+thead - skirtas sugrupuoti lenteles header elementus (neprideda automatiskai)
+
+tbody - skirtas sugrupuoti lenteles turiniuui (dauguma narsykliu automatiskai prideda)
+
+tfoot - skirtas sugrupuoti lenteles apatinei daliai (skirtas rowsams kur dedame sumas n shit, viska kas apipavidalina musu duomenis)
+
+caption - ivardina lenteles paskirti

@@ -1,0 +1,9 @@
+inspectinti elementus
+
+jeigu reikia info, naudotis MDN dar neblogai w3schools, situos psl galima ziureti ir kaip inspect pavyzdzius
+
+jeigu kazko nezinai, elementai ir netgi atributai jeigu kazko nezinai ieskoti dokumentacijos
+
+https://www.geeksforgeeks.org/html-a-tag/#:~:text=The%20tag%20(anchor,as%20its%20%E2%80%9Chref%E2%80%9D%20value.
+
+div ir span - tas pats?

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    align-items: center;
+    background-color: rgb(19, 17, 17);
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+header div button {
+    border-radius: 20px;
+    background-color: rgb(20, 189, 20);
+    color: white;
+    padding: 5px 10px;
+}
+
+header div button:nth-child(2) {
+    background-color: grey;
+}
+
+.boxes-wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+.box {
+    background-color: purple;
+    flex-grow: 1;
+    height: 50px;
+}
+
+.box:not(:last-child) {
+    margin-right: 10px;
+}

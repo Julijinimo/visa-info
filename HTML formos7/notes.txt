@@ -1,0 +1,1 @@
+kai rasai radio input type, butinai nepraleisiti name ir jis turi buti vienodas tarp inputu, pvz sutinku, nesutinku turi name taisykles

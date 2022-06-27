@@ -1,0 +1,36 @@
+.stilius skirtas clasei
+#stilius skirtas id
+
+komentuoti su ctrl+/
+
+stilius paima virsu virs klases, nes konkretesnis
+
+kai rasai stilius htmle jeigu rasai stiliu prie konkretaus elemento, tai jis ima virsu pries tai koks style parasytas head
+kai linkini i css faila jis paima visus html elementus isskyrus tuos kurie turi prie saves parasyta konkretu style
+
+geriausiai linkinti i css faila stylius del tvarkos
+
+nepamirsti kad tekstas turi virsenybe, skaitosi is virsaus i apacia is kaires i desine
+
+klases naudojame tik css stylinimui
+
+class
+
+jeigu nori kad stilio ieskotu clasei, tai naudoit pradzioje .
+pvz .main-button
+
+selektoriai turi specificity, galima pasitikrinti kas ims virsu
+
+stiliai gali vienas kita papildyti ir netrukdyti, pvz jeigu viena s atnesa backgrounda o kitas color, taip galima rasyti kad svariau atrodytu viskas
+
+komentuoti galima tik anomalijas arba tik sau, bet galutiniame kode nepalikti
+
+selektroius jeigu atskirsi kableliu, tai priskirs stilius visiems elementams kurie tures tuos selektorius
+
+iwrapinti reiskia ideti i div elementa
+
+!important atsargiai nauodti arba isvis nenaudoti
+
+caniuse.com
+css-tricks.com
+w3schools.com/css/css-intro.asp

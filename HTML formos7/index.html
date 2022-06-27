@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <form action="/test">
+            <label for="name">Name</label>
+            <input id="name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+
+        <div>
+            <label for="search">Search</label>
+            <input type="search" id="search">
+        </div>
+
+        <div>
+            <label for="url">Url</label>
+            <input type="url" id="url">
+        </div>
+
+        <div>
+            <label for="textarea">Textarea</label>
+            <textarea name="Textarea" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="roles">Roles</label>
+            <select name="roles" id="roles" multiple>
+                <optgroup label="Roles section 1">
+                    <option>Admin 1</option>
+                    <option>User 1</option>
+                </optgroup>
+
+                <optgroup label="Roles section 2">
+                    <option>Admin 2</option>
+                    <option>User 2</option>
+                </optgroup>
+            </select>
+        </div>
+
+    
+        <div>
+            <label for="myList">Datalist</label>
+            <input type="text" id="myList" list="myDatalist">
+            <datalist id="myDatalist">
+                <option>AValue1</option>
+                <option>BValue1</option>
+                <option>CValue1</option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="Sutinku">Sutinku</label>
+            <input type="checkbox" id="Sutinku" name="taisykles" value="sutinku">
+
+            <label for="Nesutinku">Nesutinku</label>
+            <input type="checkbox" id="Nesutinku" name="taisykles" value="nesutinku">
+
+        </div>
+
+        <div>
+            <label for="sutinku">Sutinku</label>
+            <input type="radio" id="sutinku" name="taisykles">
+
+            <label for="nesutinku">Nesutinku</label>
+            <input type="radio" id="nesutinku" name="taisykles">
+            
+        </div>
+
+        <div>
+            <label for="count">Count</label>
+            <input type="number" id="count" min="0" max="10" step="2">
+        </div>
+
+        <div>
+            <label for="slider">Slider</label>
+            <input type="range" name="slider" id="slider" min="0" max="500" step="50">
+        </div>
+
+        <div>
+            <input type="datetime-local" name="datetime" id="datetime">
+            <label for="datetime">Date and Time</label>
+        </div>
+
+        <div>
+            <input type="month">
+        </div>
+
+        <div>
+            <input type="week">
+        </div>
+
+        <div>
+            <input type="time">
+        </div>
+
+        <div>
+            <input type="color" id="color" name="color">
+        </div>
+
+        <div>
+            <input type="file" size="1">
+        </div>
+
+        <div>
+            <input type="text" value="by default this element is filled with this text">
+        </div>
+            
+        <div>
+            <input autofocus required placeholder="iveskite savo varda">
+            <input disabled placeholder="iveskite savo varda">
+        </div>
+
+        <div class="form-buttons-wrapper">
+            <button type="submit">
+                Submit  
+            </button>
+            <button type="reset">
+                Reset
+            </button>
+        </div>
+
+        
+
+        </form>
+       
+    </body>
+</html>

@@ -1,0 +1,15 @@
+textarea {
+    resize: none;
+}
+
+label {
+    width: 75px;
+    text-align: right;
+    display: inline-block;
+}
+
+.form-buttons-wrapper {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}

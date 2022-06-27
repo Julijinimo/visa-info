@@ -1,0 +1,27 @@
+inline elementai margin negali tureti top ir bottom tik is sonu
+
+block elementai turi margin is visu pusiu
+
+paddingas vidiniam elementu isdestymui
+
+margin naudojame isdestyti elementus tarp kitu elementu
+
+eina tvarka: virsus - desine - apacia - kaire
+
+paddinga iseina is contento ribu
+
+buti atsargiam su auksciais ir plociais!!!
+
+button (visiems button) .button (button su class"button") #button (button su id"Button"
+
+margin : 0 auto - centruoja bloka
+bet reikia uzdeti ir bloko width
+
+tarp blokiniu elementu gali ivykti collapsinimas, ima virsu didesnis margin. sito galima isvengti pakeitus is blockinio i inline
+
+is inline i block galima keisti per display tag
+
+box-sizing border box kai naudojame padaro kad visas elementas butu pvz 100px. padaro, kad margin, padding, width ir height sutilptu i 100px
+
+* {} naudojame, kad nustatyti taisykles visiems elementams i ten gali ideti box-sizing border box ----- cia yra reset
+dar yra normalize.css - pasiskaityti
